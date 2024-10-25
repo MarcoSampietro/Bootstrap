@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BTS_1.2</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-3" style="background-color:lavender;"> Sei </div>
+                <div class="col-sm-6 col-lg-3" style="background-color:lavenderblush;">un</div>
+                <div class="col-sm-12 col-lg-6" style="background-color:lavender;">baluba</div>
+            </div>
+
+            <div class="row"></div>
+                <div class="col-12" style="background-color:white; height: 20px;"></div>
+            </div>
+
+            <table class="table table-bordered">
+                <tbody>
+                    <!-- Righe per schermi >= 1200px (tutti i div da 3 colonne) -->
+                    <tr class="d-none d-lg-table-row">
+                        <td class="row-lg-3">3</td>
+                        <td class="row-lg-3">3</td>
+                        <td class="row-lg-3">3</td>
+                        <td class="row-lg-3">3</td>
+                    </tr>
+                    <!-- Righe per schermi 992px <= width < 1200px (tutti i div da 6 colonne) -->
+                    <tr class="d-none d-md-table-row d-lg-none">
+                        <td class="row-md-6">6</td>
+                        <td class="row-md-6">6</td>
+                    </tr>
+                    <tr class="d-none d-md-table-row d-lg-none">
+                        <td class="row-md-6">6</td>
+                        <td class="row-md-6">6</td>
+                    </tr>
+                    <!-- Righe per schermi 576px <= width < 768px (divisi in 8 e 4 colonne) -->
+                    <tr class="d-none d-sm-table-row d-md-none">
+                        <td class="row-sm-8">8</td>
+                        <td class="row-sm-4">4</td>
+                    </tr>
+                    <tr class="d-none d-sm-table-row d-md-none">
+                        <td class="row-sm-4">4</td>
+                        <td class="row-sm-8">8</td>
+                    </tr>
+                    <!-- Righe per schermi < 576px (tutti i div da 12 colonne) -->
+                    <tr class="d-table-row d-sm-none">
+                        <td class="row-12">12</td>
+                    </tr>
+                    <tr class="d-table-row d-sm-none">
+                        <td class="row-12">12</td>
+                    </tr>
+                    <tr class="d-table-row d-sm-none">
+                        <td class="row-12">12</td>
+                    </tr>
+                    <tr class="d-table-row d-sm-none">
+                        <td class="row-12">12</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

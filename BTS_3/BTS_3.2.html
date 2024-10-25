@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS_3.2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Jumbotron (in Bootstrap 5 non esiste più, usiamo un bg-info div) -->
+    <div class="bg-info text-white p-5 mb-4">
+        <div class="container">
+            <h1 class="display-4">Benvenuti nel mio sito</h1>
+            <p class="lead">Questa è una semplice jumbotron per attirare l'attenzione sui contenuti che seguono.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!-- Immagine fluttuante a destra in un cerchio -->
+            <div class="col-md-4">
+                <img src="Immagini/leone.jpg" class="float-end rounded-circle" alt="Immagine 1">
+            </div>
+
+            <!-- Immagine centrata in un thumbnail -->
+            <div class="col-md-4">
+                <div class="text-center">
+                    <img src="Immagini/spazio.jpg" class="img-thumbnail" alt="Immagine 2">
+                </div>
+            </div>
+
+            <!-- Immagine fluttuante a sinistra con bordi arrotondati -->
+            <div class="col-md-4">
+                <img src="Immagini/uccello.jpg" class="float-start rounded" alt="Immagine 3">
+            </div>
+        </div>
+
+        <!-- Alert di successo con link -->
+        <div class="alert alert-success alert-dismissible fade show mt-4" role="alert">
+            <strong>Ben fatto!</strong> Sei arrivato alla fine della sezione immagini. 
+            <a href="#top" class="alert-link">Torna all'inizio</a>.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <!-- Bottoni -->
+        <div class="mb-3">
+            <!-- Button Outline -->
+            <button type="button" class="btn btn-outline-primary">Button Outline</button>
+            <!-- Block level button -->
+            <button type="button" class="btn btn-outline-secondary btn-block">Block Level Button</button>
+        </div>
+
+        <!-- Dropdown Button Group -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
